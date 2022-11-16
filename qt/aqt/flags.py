@@ -65,16 +65,16 @@ class FlagManager:
 
         self._flags = [
             Flag(
-                1,
-                labels["1"] if "1" in labels else tr.actions_flag_red(),
-                icon.with_color(colors.FLAG_1),
+                8,
+                labels["8"] if "8" in labels else tr.actions_flag_red(),
+                icon.with_color(colors.FLAG_8),
                 SearchNode(flag=SearchNode.FLAG_RED),
                 "actionRed_Flag",
             ),
             Flag(
-                2,
-                labels["2"] if "2" in labels else tr.actions_flag_orange(),
-                icon.with_color(colors.FLAG_2),
+                9,
+                labels["9"] if "9" in labels else tr.actions_flag_orange(),
+                icon.with_color(colors.FLAG_9),
                 SearchNode(flag=SearchNode.FLAG_ORANGE),
                 "actionOrange_Flag",
             ),
